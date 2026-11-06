@@ -1,0 +1,5 @@
+# generated media
+output/
+# reference photos stay local (re-upload in a new session)
+assets/
+__pycache__/
