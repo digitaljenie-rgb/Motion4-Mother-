@@ -1,0 +1,54 @@
+{
+  "reference_image": "assets/reference.jpg",
+  "image_model": "gen4_image",
+  "image_ratio": "1080:1920",
+  "video_model": "gen4.5",
+  "video_ratio": "720:1280",
+  "seed": 4207,
+
+  "keyframe_prompt": "Live-action photograph, bright modern beauty editorial. @muse, the exact same woman with the same face, sits at a white vanity table scattered with eyeshadow palettes, makeup brushes, lipsticks and gold compacts. Same hair, outfit and makeup as @muse: long voluminous honey-blonde wavy hair with darker roots, caramel satin wrap blouse with a collar, small diamond stud earrings, soft bronze glam makeup with nude lips. Soft diffused key light from one side, gentle shadow on the other side of her face, warm cream and blush palette, glossy highlights. Extreme low angle, shallow depth of field, small confident smile. Plain softly lit cream wall behind her. No text, no letters, no logos, no signage, no microphone.",
+
+  "style": "Full live-action photoreal footage, bright modern beauty editorial, soft diffused key light, warm cream and blush palette, glossy highlights, shallow depth of field. Continuous single take, no cuts, no transitions, no animation, no text, no logos, no symbols.",
+
+  "beats": [
+    {
+      "name": "01_entrance",
+      "duration": 3,
+      "prompt": "Extreme low-angle shot. The woman slides into her seat at the vanity table in slow, deliberate motion, settling her shoulders. Light catches one side of her face, soft shadow on the other. She gives a small confident smile and speaks softly to camera. The camera slowly pushes inward."
+    },
+    {
+      "name": "02_flick",
+      "duration": 4,
+      "prompt": "She raises one hand with controlled elegance, a single gold lipstick bullet pinched between two fingers, and flicks it toward the lens. Extreme slow motion: the lipstick spins through the air, decelerates and hovers, its edges haloed in warm light, metal ridges and fingerprints razor sharp. The camera drives into a macro close-up of the hovering lipstick, then the motion snaps back and the lipstick reverses and lands back in her palm."
+    },
+    {
+      "name": "03_storm",
+      "duration": 5,
+      "prompt": "She rises smoothly from the chair and throws both hands open wide. Every makeup item on the vanity lifts into the air at once in a controlled explosion: palettes, brushes, compacts and drifting clouds of loose pigment. The products spiral in a slow rotating storm around her while she stands perfectly still at the centre, chin lifted, calm and dominant. The camera orbits a full circle around her while rising, from a low upshot to a tight side angle."
+    },
+    {
+      "name": "04_release",
+      "duration": 3,
+      "prompt": "She swings both hands outward. The swirling makeup collapses inward and settles perfectly back onto the vanity in one fluid motion. She turns to face the camera and holds direct eye contact. The camera ends tight on her face, a bright catchlight in both eyes."
+    }
+  ],
+
+  "audio": {
+    "voice": {
+      "text": "Let's create a look.",
+      "at": 1.2,
+      "speech_rate": -15,
+      "pitch_rate": -2
+    },
+    "room_tone": {
+      "prompt": "Quiet, soft ambient room tone of a calm bright studio, very subtle air, no music, no voices.",
+      "gain": 0.6
+    },
+    "effects": [
+      {"name": "flick", "prompt": "A single soft crisp click of a metal lipstick being flicked from fingers, close-up, no music.", "duration": 1.0, "at": 3.6, "gain": 0.9},
+      {"name": "catch", "prompt": "A small metal lipstick tube landing in an open palm with a soft tap, close-up, no music.", "duration": 1.0, "at": 6.4, "gain": 0.9},
+      {"name": "swell", "prompt": "One deep cinematic low-end sub bass swell, slowly rising then fading, no music, no melody.", "duration": 5.0, "at": 7.0, "gain": 1.0},
+      {"name": "settle", "prompt": "Many small makeup compacts, brushes and palettes clicking softly back onto a table at once, close-up, no music.", "duration": 1.5, "at": 12.2, "gain": 0.8}
+    ]
+  }
+}
